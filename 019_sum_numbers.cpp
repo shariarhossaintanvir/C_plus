@@ -6,7 +6,7 @@ int main() {
     cin >> n;
 
     for(int i = 1; i <= n; i++) {
-        sum += i;
+    sum += i;
     }
 
     cout << "Sum of natural numbers up to " << n << " = " << sum << endl;

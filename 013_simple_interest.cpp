@@ -8,7 +8,6 @@ int main() {
     cin >> rate;
     cout << "Enter Time (in years): ";
     cin >> time;
-    // Formula: SI = (P * R * T) / 100
     simpleInterest = (principal * rate * time) / 100;
     cout << "Simple Interest = " << simpleInterest << endl;
     return 0;
