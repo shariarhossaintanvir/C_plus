@@ -1,21 +1,19 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main() {
     int num;
+    cout<<"Enter a number: "c;
+    cin>>num;
 
-    // Input number
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    // Check condition
     if (num > 0) {
-        printf("The number is Positive.\n");
+        cout<<"The number is Positive."<<endl;
     }
     else if (num < 0) {
-        printf("The number is Negative.\n");
+        cout<<"The number is Negative."<<endl;
     }
     else {
-        printf("The number is Zero.\n");
+        cout<<"The number is Zero."<<endl;
     }
 
     return 0;
